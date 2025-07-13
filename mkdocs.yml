@@ -1,0 +1,175 @@
+site_name: Cognito Simulation Engine
+site_description: A modular cognitive simulation engine for AGI research and development
+site_author: Krishna Bajpai
+site_url: https://krish567366.github.io/cognito-sim-engine/
+repo_url: https://github.com/krish567366/cognito-sim-engine
+repo_name: krish567366/cognito-sim-engine
+edit_uri: edit/main/docs/
+
+# Navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Installation: getting-started/installation.md
+    - Quick Start: getting-started/quickstart.md
+    - First Simulation: getting-started/first-simulation.md
+  - Theory & Concepts:
+    - Cognitive Architecture: theory/cognitive-architecture.md
+    - Memory Systems: theory/memory-systems.md
+    - Reasoning Engine: theory/reasoning-engine.md
+    - Agent Design: theory/agent-design.md
+  - User Guide:
+    - Engine Configuration: guide/engine-configuration.md
+    - Creating Agents: guide/creating-agents.md
+    - Environment Setup: guide/environment-setup.md
+    - Memory Management: guide/memory-management.md
+    - Reasoning & Goals: guide/reasoning-goals.md
+    - CLI Usage: guide/cli-usage.md
+  - API Reference:
+    - Engine: api/engine.md
+    - Memory: api/memory.md
+    - Reasoning: api/reasoning.md
+    - Agents: api/agents.md
+    - Environment: api/environment.md
+  - Examples:
+    - Basic Simulation: examples/basic-simulation.md
+    - Multi-Agent Systems: examples/multi-agent.md
+    - Learning Agents: examples/learning-agents.md
+    - Custom Environments: examples/custom-environments.md
+  - Research:
+    - Cognitive Science Background: research/cognitive-science.md
+    - AGI Implications: research/agi-implications.md
+    - Performance Metrics: research/performance-metrics.md
+    - Validation Studies: research/validation.md
+  - Development:
+    - Contributing: development/contributing.md
+    - Architecture: development/architecture.md
+    - Testing: development/testing.md
+    - Roadmap: development/roadmap.md
+
+# Theme
+theme:
+  name: material
+  language: en
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: blue
+      accent: blue
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - search.highlight
+    - search.suggest
+    - search.share
+    - header.autohide
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.action.edit
+    - content.action.view
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+      title: Page contents
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: yourusername
+      repo: cognito-sim-engine
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# Plugins
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_style: google
+            members_order: source
+            show_source: true
+            show_signature_annotations: true
+            show_category_heading: true
+            merge_init_into_class: true
+            filters: ["!^_"]
+            heading_level: 2
+            show_submodules: true
+
+# Extra
+extra:
+  version:
+    provider: mike
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/yourusername/cognito-sim-engine
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/cognito-sim-engine/
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/yourusername
+
+# Copyright
+copyright: Copyright &copy; 2024 Krishna Bajpai - MIT License
+
+# Validation
+strict: true
+use_directory_urls: true

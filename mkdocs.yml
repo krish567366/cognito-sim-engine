@@ -6,60 +6,77 @@ repo_url: https://github.com/krish567366/cognito-sim-engine
 repo_name: krish567366/cognito-sim-engine
 edit_uri: edit/main/docs/
 
-# Navigation
 nav:
   - Home: index.md
   - Getting Started:
-    - Installation: getting-started/installation.md
-    - Quick Start: getting-started/quickstart.md
-    - First Simulation: getting-started/first-simulation.md
+      - Installation: getting-started/installation.md
+      - Quick Start: getting-started/quickstart.md
+      - First Simulation: getting-started/first-simulation.md
   - Theory & Concepts:
-    - Cognitive Architecture: theory/cognitive-architecture.md
-    - Memory Systems: theory/memory-systems.md
-    - Reasoning Engine: theory/reasoning-engine.md
-    - Agent Design: theory/agent-design.md
+      - Cognitive Architecture: theory/cognitive-architecture.md
+      - Memory Systems: theory/memory-systems.md
+      - Reasoning Engine: theory/reasoning-engine.md
+      - Agent Design: theory/agent-design.md
   - User Guide:
-    - Engine Configuration: guide/engine-configuration.md
-    - Creating Agents: guide/creating-agents.md
-    - Environment Setup: guide/environment-setup.md
-    - Memory Management: guide/memory-management.md
-    - Reasoning & Goals: guide/reasoning-goals.md
-    - CLI Usage: guide/cli-usage.md
+      - Engine Configuration: guide/engine-configuration.md
+      - Creating Agents: guide/creating-agents.md
+      - Environment Setup: guide/environment-setup.md
+      - Memory Management: guide/memory-management.md
+      - Reasoning & Goals: guide/reasoning-goals.md
+      - CLI Usage: guide/cli-usage.md
+      - Licensing: guide/licensing.md
   - API Reference:
-    - Engine: api/engine.md
-    - Memory: api/memory.md
-    - Reasoning: api/reasoning.md
-    - Agents: api/agents.md
-    - Environment: api/environment.md
+      - Engine: api/engine.md
+      - Memory: api/memory.md
+      - Reasoning: api/reasoning.md
+      - Agents: api/agents.md
+      - Environment: api/environment.md
+      - CLI: api/cli.md
+      - Overview: api/overview.md
+      - Types: api/types.md
+      - Utils: api/utils.md
   - Examples:
-    - Basic Simulation: examples/basic-simulation.md
-    - Multi-Agent Systems: examples/multi-agent.md
-    - Learning Agents: examples/learning-agents.md
-    - Custom Environments: examples/custom-environments.md
+      - Basic Simulation: examples/basic-simulation.md
+      - Multi-Agent Systems: examples/multi-agent.md
+      - Learning Agents: examples/learning-agents.md
+      - Custom Environments: examples/custom-environments.md
+      - AGI Research Simulation: examples/agi-research-simulation.md
+      - Architecture Comparison: examples/architecture-comparison.md
+      - Basic Research Simulation: examples/basic-research-simulation.md
+      - Cognitive Development Study: examples/cognitive-development-study.md
+      - Competitive Simulation: examples/competitive-simulation.md
+      - Creative Problem Solving: examples/creative-problem-solving.md
+      - Educational Simulation: examples/educational-simulation.md
+      - Educational Technology Example: examples/educational-technology-example.md
+      - Overview: examples/overview.md
   - Research:
-    - Cognitive Science Background: research/cognitive-science.md
-    - AGI Implications: research/agi-implications.md
-    - Performance Metrics: research/performance-metrics.md
-    - Validation Studies: research/validation.md
+      - Cognitive Science Background: research/cognitive-science.md
+      - AGI Implications: research/agi-implications.md
+      - Performance Metrics: research/performance-metrics.md
+      - Validation Studies: research/validation.md
+      - Overview: research/overview.md
+  - Theory & Concepts:
+      - Cognitive Architecture: theory/cognitive-architecture.md
+      - Memory Systems: theory/memory-systems.md
+      - Reasoning Engine: theory/reasoning-engine.md
+      - Agent Design: theory/agent-design.md
+      - Environment Design: theory/environment-design.md
   - Development:
-    - Contributing: development/contributing.md
-    - Architecture: development/architecture.md
-    - Testing: development/testing.md
-    - Roadmap: development/roadmap.md
-
-# Theme
+      - development\architecture.md
+      - development\contributing.md
+      - development\roadmap.md
+      - development\testing.md
+  - License: guide/licensing.md
 theme:
   name: material
   language: en
   palette:
-    # Palette toggle for light mode
     - scheme: default
       primary: blue
       accent: blue
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
-    # Palette toggle for dark mode
     - scheme: slate
       primary: blue
       accent: blue
@@ -91,7 +108,6 @@ theme:
     - content.action.edit
     - content.action.view
 
-# Extensions
 markdown_extensions:
   - abbr
   - admonition
@@ -110,8 +126,8 @@ markdown_extensions:
   - pymdownx.caret
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -120,7 +136,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.magiclink:
       repo_url_shorthand: true
-      user: yourusername
+      user: krish567366
       repo: cognito-sim-engine
   - pymdownx.mark
   - pymdownx.smartsymbols
@@ -135,7 +151,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tilde
 
-# Plugins
 plugins:
   - search:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
@@ -155,21 +170,16 @@ plugins:
             heading_level: 2
             show_submodules: true
 
-# Extra
 extra:
   version:
     provider: mike
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/yourusername/cognito-sim-engine
+      link: https://github.com/krish567366/cognito-sim-engine
     - icon: fontawesome/brands/python
       link: https://pypi.org/project/cognito-sim-engine/
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/yourusername
 
-# Copyright
 copyright: Copyright &copy; 2024 Krishna Bajpai - MIT License
 
-# Validation
 strict: true
 use_directory_urls: true

@@ -1,5 +1,11 @@
 # Cognito Simulation Engine
 
+[![PyPI - Version](https://img.shields.io/pypi/v/cognito-sim-engine?color=green&label=PyPI&logo=pypi)](https://pypi.org/project/cognito-sim-engine/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-green.svg)](https://www.python.org/downloads/release/python-390/)
+[![Documentation](https://img.shields.io/badge/docs-mkdocs-brightgreen.svg)](https://krish567366.github.io/cognito-sim-engine)
+[![PyPI Downloads](https://static.pepy.tech/badge/cognito-sim-engine)](https://pepy.tech/projects/cognito-sim-engine)
+
 Welcome to the Cognito Simulation Engine documentation - a revolutionary framework for modeling and testing advanced AI cognitive architectures.
 
 ## 🧠 What is Cognito Simulation Engine?
@@ -15,24 +21,28 @@ Cognito Simulation Engine is a modular, production-ready Python framework design
 ## 🌟 Key Features
 
 ### Biologically-Inspired Architecture
+
 - Miller's 7±2 working memory capacity limits
 - Realistic memory decay and consolidation processes
 - Attention-based cognitive resource allocation
 - Multi-modal perception and action systems
 
 ### Advanced Reasoning Capabilities
+
 - Forward and backward chaining inference
 - Abductive reasoning for hypothesis generation
 - Uncertainty handling and confidence tracking
 - Domain-specific knowledge integration
 
 ### Multiple Agent Architectures
+
 - **CognitiveAgent**: Full-featured cognitive architecture
 - **ReasoningAgent**: Specialized for logical problem-solving
 - **LearningAgent**: Focused on adaptive learning and skill acquisition  
 - **MetaCognitiveAgent**: Advanced self-reflective capabilities
 
 ### Research-Ready Tools
+
 - Comprehensive performance metrics and analysis
 - Configurable simulation parameters
 - Data export and visualization capabilities
@@ -71,24 +81,28 @@ print(f"Simulation completed: {metrics.goals_achieved} goals achieved")
 ## 🎯 Use Cases
 
 ### AGI Research
+
 - Test theoretical cognitive architectures
 - Study emergent intelligent behavior
 - Validate cognitive theories through simulation
 - Prototype AGI systems safely
 
 ### Cognitive Science
+
 - Model human cognitive processes
 - Study memory formation and retrieval
 - Investigate attention and consciousness
 - Test learning and adaptation mechanisms
 
 ### AI Safety & Alignment
+
 - Research goal alignment in AI systems
 - Study metacognitive safety mechanisms
 - Test cognitive containment strategies
 - Analyze emergent AI behaviors
 
 ### Education & Training
+
 - Teach cognitive science concepts interactively
 - Demonstrate AI reasoning processes
 - Create educational simulations

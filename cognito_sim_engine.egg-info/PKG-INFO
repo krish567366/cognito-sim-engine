@@ -1,6 +1,55 @@
+Metadata-Version: 2.4
+Name: cognito-sim-engine
+Version: 1.0.1
+Summary: A modular cognitive simulation engine for modeling and testing advanced AI cognitive architectures
+Author-email: Krishna Bajpai <bajpaikrishna715@gmail.com>
+Maintainer-email: Krishna Bajpai <bajpaikrishna715@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/krish567366/cognito-sim-engine
+Project-URL: Documentation, https://krish567366.github.io/cognito-sim-engine
+Project-URL: Repository, https://github.com/krish567366/cognito-sim-engine
+Project-URL: Bug Tracker, https://github.com/krish567366/cognito-sim-engine/issues
+Keywords: cognitive-simulation,artificial-intelligence,cognitive-architecture,agi,symbolic-reasoning,memory-modeling,cognitive-agents
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.21.0
+Requires-Dist: networkx>=2.6.0
+Requires-Dist: matplotlib>=3.5.0
+Requires-Dist: pydantic>=2.0.1
+Requires-Dist: typer>=0.9.0
+Requires-Dist: rich>=13.0.0
+Requires-Dist: pyyaml>=6.0.0
+Requires-Dist: quantummeta-license>=1.0.1
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=23.0.0; extra == "dev"
+Requires-Dist: isort>=5.12.0; extra == "dev"
+Requires-Dist: mypy>=1.0.1; extra == "dev"
+Requires-Dist: pre-commit>=3.0.0; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: mkdocs>=1.5.0; extra == "docs"
+Requires-Dist: mkdocs-material>=9.0.0; extra == "docs"
+Requires-Dist: mkdocstrings[python]>=0.20.0; extra == "docs"
+Provides-Extra: visualization
+Requires-Dist: plotly>=5.0.0; extra == "visualization"
+Requires-Dist: jupyter>=1.0.1; extra == "visualization"
+Requires-Dist: ipywidgets>=8.0.0; extra == "visualization"
+Dynamic: license-file
+
 # 🧠 Cognito Simulation Engine
 
-For consulting and enterprise solutions: [Krishna Bajpai – AI/ML & Quantum Consultant](https://krishnabajpai.me)
 [![PyPI - Version](https://img.shields.io/pypi/v/cognito-sim-engine?color=green&label=PyPI&logo=pypi)](https://pypi.org/project/cognito-sim-engine/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/release/python-390/)
